@@ -1,2 +1,77 @@
 # Please-forgive-me-
 Apology 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>I'm Sorry ❤️</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial;
+      background: linear-gradient(to bottom, #ffe6e6, #fff);
+      padding: 50px;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 18px;
+    }
+    img {
+      width: 250px;
+      border-radius: 15px;
+      margin: 20px 0;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      background-color: #ff4d4d;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ff1a1a;
+    }
+    #hiddenMessage {
+      display: none;
+      margin-top: 20px;
+      font-size: 20px;
+      color: green;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>I'm Sorry 😔</h1>
+
+  <p>
+    I’m really sorry ami jete parlam na… 🥺<br><br>
+    It wasn’t because I didn’t want to arey amar maa jete dilo na 😔<br><br>
+    I hate disappointing you, especially when I was really looking forward to seeing you 💔
+  </p>
+
+  <img src="https://pin.it/4qBFaeixS" alt="funny image">
+
+  <p>
+    Please don’t be mad at me… I really care about you a lot 💖<br>
+    Also… this still took effort so thoda sa toh maf kar do cutie 😤👉👈
+  </p>
+
+  <button onclick="forgiveMe()">Forgive me? 🥺</button>
+
+  <div id="hiddenMessage">
+    I knew you would 😌💖<br>
+    Now come here, don’t be mad anymore 😤👉👈 I love you!
+  </div>
+
+  <script>
+    function forgiveMe() {
+      document.getElementById("hiddenMessage").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
